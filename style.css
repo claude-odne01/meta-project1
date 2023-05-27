@@ -1,0 +1,97 @@
+body {
+    padding: 15px;
+}
+
+article.promo {
+    padding: 20px;
+}
+article.promo > h1 {
+    font-size: 42px;
+
+}
+
+.hours {
+    text-align: center;
+    font-size: 16px;
+    color: lightslategray;
+  
+
+}
+header > img {
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    background-color: darkslategray;
+    
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+ }
+
+li > a:link {
+    color: white;
+    font-size: 24px;
+}
+li > a:hover {
+    color: white;
+}
+li > a:visited {
+    color: lightgray;
+}
+li > a:active {
+    color: white;
+}
+
+.promo-image {
+    background-image: url(promotion.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    color: black;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.image-sizer {
+    height: 240px;
+}
+
+#hp  {
+    height: 250px;
+    float: left;    
+     margin: 0 15px 0 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid-container3 {
+    display: grid;
+    text-align: center;
+    padding-top: 5%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card{
+    margin: 10px;
+    box-shadow: 5px 5px darkslategrey;
+}
+footer > div > img {
+    width: 250px;
+}
